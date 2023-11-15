@@ -17,8 +17,8 @@ const TrafficLight = () => {
           className={`circle two ${currentColor === "yellow" ? "effect" : ""}`}
         ></div>
         <div
-          className={`circle three ${currentColor === "green" ? "effect" : ""}`}
-          onClick={() => setCurrentColor("green")}
+         onClick={() => setCurrentColor("green")}
+         className={`circle three ${currentColor === "green" ? "effect" : ""}`}
         ></div>
       </div>
     </div>
