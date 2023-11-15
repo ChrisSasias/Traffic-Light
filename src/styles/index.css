@@ -1,12 +1,56 @@
+body{
 
-/* 
+   background-image: url(https://www.sightline.org/wp-content/uploads/2019/05/Traffic-lights.jpg);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 0.5px solid black;
+   width: 15vh;
+   height: 35vh;
+   border-radius: 10px;
+   background-color: rgb(227, 142, 38);
+   caret-color: transparent;
+}
 
-*/
+.circle {
+   margin: 2px;
+   width: 10vh;
+   height: 10vh;
+   border: 2px solid black;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.top {
+   background-color: black;
+   width: 10px;
+   height: 70px;
+}
+
+.center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+
+.one {
+   background-color: red;
+}
+
+.two {
+   background-color: yellow;
+}
+
+.three {
+   background-color: green;
+}
+.effect{
+   box-shadow: 0 0 50px 20px rgb(236, 246, 126);
+   filter: brightness(2); /* Puedes ajustar el valor según tus necesidades, donde 0.5 sería la mitad del brillo original */
+ }
