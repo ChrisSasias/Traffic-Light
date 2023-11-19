@@ -52,5 +52,5 @@ body{
 }
 .effect{
    box-shadow: 0 0 50px 20px rgb(236, 246, 126);
-   filter: brightness(2); /* Puedes ajustar el valor según tus necesidades, donde 0.5 sería la mitad del brillo original */
+   filter: brightness(2); 
  }
